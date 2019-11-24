@@ -1,0 +1,17 @@
+.pt-3, .py-3 {
+    padding-top: 5rem!important;
+}
+
+.container-fluid {
+    background-image: url("../../assets/images/img11.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 3.00rem;
+}

@@ -1,0 +1,25 @@
+a:not([href]):not([tabindex]) {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btn-1 {
+    border-color: rgb(0, 47, 255);
+    color: rgb(0, 217, 255);
+}
+
+.btn-1:hover {
+    background: rgb(0, 47, 255);
+    color: white;
+}
+
+.btn-2 {
+    border-color: #f44336;
+    color: red;
+}
+
+.btn-2:hover {
+    background: #f44336;
+    color: white;
+}
