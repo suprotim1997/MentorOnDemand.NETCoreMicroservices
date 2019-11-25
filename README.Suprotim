@@ -3,7 +3,7 @@ This is a Project(Web Application) based on .NET Core
 This Project includes system which lets users search for a Mentor for a specific Technical Course, User can search, select, propose & finalize a Mentor of his Choice, post which Training gets started.
 Along with B2C, B2B functionality also need to be supported, for which Users can be Corporate Organizations seeking Technical Courses, which are offered by various Vendor Organizations(which may have  pool of Trainers).
 Payment processing, E-mail interaction is within scope of the Project.
-The Project is divided into two two phases 1 & 2. Phase 1 comprises Retail Use Cases(B2C) and Corporate related Use Cases(B2B).
+The Project is divided into two phases 1 & 2. Phase 1 comprises Retail Use Cases(B2C) and Corporate related Use Cases(B2B).
 1.	Retail Use cases
 Below are the different roles, which need to be supported by above System.
 #1. User(Retail)
