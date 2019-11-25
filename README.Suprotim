@@ -4,13 +4,13 @@ This Project includes system which lets users search for a Mentor for a specific
 Along with B2C, B2B functionality also need to be supported, for which Users can be Corporate Organizations seeking Technical Courses, which are offered by various Vendor Organizations(which may have  pool of Trainers).
 Payment processing, E-mail interaction is within scope of the Project.
 The Project is divided into two phases 1 & 2. Phase 1 comprises Retail Use Cases(B2C) and Corporate related Use Cases(B2B).
-1.	Retail Use cases
+1.Retail Use cases
 Below are the different roles, which need to be supported by above System.
 #1. User(Retail)
 #2. Mentor(Retail)
 #3. Admin
 Below are the Use Cases which need to be supported by each of above Roles
-1.1.	User(Retail) Use Cases.
+1.1.User(Retail) Use Cases
 User should be able to Signup. Email ID can be used as username, which need to be confirmed by User to complete Signup process.
 User should be able to Signin.
 User can search for Mentors for a specific Time and Technology(mandatory), even without signing in.
@@ -30,7 +30,7 @@ c.	Trainings started, and not completed
 
 User should be able to view List of Trainings already availed and Completed.
 
-1.2.	Mentor Use Cases
+1.2.Mentor Use Cases
 Mentor need to SignUp to provide Mentoring service through the Portal
 During SignUp process Mentor need to provide timezone/working timings, list of technologies, facilities provided - material, examples/cloud labs, email/mobnum verification, linkedin URL, mentor profile, number of years of experience. Email id can be used as Mentor’s username.
 View History of Mentor - Trainings delivered, ratings, etc...
@@ -39,7 +39,7 @@ Trainer will be paid in 4 slots, based on progress
 Payment will get accumulated based on Progress, which can be withdrawn by Trainer.
 E-Mail Notifications need to be automatically sent to User and Mentor, during appropriate Use Cases.
 
-1.3.	Admin Use Cases
+1.3.Admin Use Cases
 Admin can add/remove List of Technologies
 Block or Unblock User or Mentor
 Admin should be able to search the Payments made, and display reports
