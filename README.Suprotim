@@ -3,3 +3,45 @@ This is a Project(Web Application) based on .NET Core
 This Project includes system which lets users search for a Mentor for a specific Technical Course, User can search, select, propose & finalize a Mentor of his Choice, post which Training gets started.
 Along with B2C, B2B functionality also need to be supported, for which Users can be Corporate Organizations seeking Technical Courses, which are offered by various Vendor Organizations(which may have  pool of Trainers).
 Payment processing, E-mail interaction is within scope of the Project.
+The Project is divided into two two phases 1 & 2. Phase 1 comprises Retail Use Cases(B2C) and Corporate related Use Cases(B2B).
+1.	Retail Use cases
+Below are the different roles, which need to be supported by above System.
+#1. User(Retail)
+#2. Mentor(Retail)
+#3. Admin
+Below are the Use Cases which need to be supported by each of above Roles
+1.1.	User(Retail) Use Cases.
+User should be able to Signup. Email ID can be used as username, which need to be confirmed by User to complete Signup process.
+User should be able to Signin.
+User can search for Mentors for a specific Time and Technology(mandatory), even without signing in.
+Search results need to list Mentors having expertise in specific Technology, who are available in that specific time(Mentor's Calendar can be checked to display search results)
+A search result has to display Name of Mentor, years of experience, no. of trainings delivered in total and in specific technology, Fee charged (including commission).
+After viewing Mentor's Profile/History/Rating, User can select a specific Trainer from above Search Results and should be possible to send Proposal, to the Mentor.
+Once the User Proposes, Propose request is received by a specific Mentor. A Mentor can Confirm or Reject a Proposal. Proposal Confirmation or Rejection need to be sent to User.
+User can Finalize a Confirmed Proposal response, after which user need to make payment, for Training Course.
+Payment is collected in advance from User. But Mentor will be paid in 4 slots, as the Training Progress reaches 25%, 50%, 75% and 100%
+Actual progress need to be updated by User.
+Should be possible to Rate any Mentor, of the Trainings which are in Progress
+User should be able to view list of Current Trainings in Progress. 
+Trainings in any of below states are considered to be in Progress.
+a.	Proposed.
+b.	Confirmed Proposals
+c.	Trainings started, and not completed
+
+User should be able to view List of Trainings already availed and Completed.
+
+1.2.	Mentor Use Cases
+Mentor need to SignUp to provide Mentoring service through the Portal
+During SignUp process Mentor need to provide timezone/working timings, list of technologies, facilities provided - material, examples/cloud labs, email/mobnum verification, linkedin URL, mentor profile, number of years of experience. Email id can be used as Mentor’s username.
+View History of Mentor - Trainings delivered, ratings, etc...
+Payment will be fixed based on Technology/Complexity, etc... and based on Trainers experience, proposal
+Trainer will be paid in 4 slots, based on progress
+Payment will get accumulated based on Progress, which can be withdrawn by Trainer.
+E-Mail Notifications need to be automatically sent to User and Mentor, during appropriate Use Cases.
+
+1.3.	Admin Use Cases
+Admin can add/remove List of Technologies
+Block or Unblock User or Mentor
+Admin should be able to search the Payments made, and display reports
+Admin should be able to edit parameters such as Payment Commission percentage(which will be deducted from the payments done by User).
+Contact details should be confidential, and should not be shared with each other.
