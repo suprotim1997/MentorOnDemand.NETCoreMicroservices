@@ -1,0 +1,5 @@
+# MentorOnDemand
+This is a Project(Web Application) based on .NET Core
+This Project includes system which lets users search for a Mentor for a specific Technical Course, User can search, select, propose & finalize a Mentor of his Choice, post which Training gets started.
+Along with B2C, B2B functionality also need to be supported, for which Users can be Corporate Organizations seeking Technical Courses, which are offered by various Vendor Organizations(which may have  pool of Trainers).
+Payment processing, E-mail interaction is within scope of the Project.
